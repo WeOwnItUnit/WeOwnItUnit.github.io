@@ -146,37 +146,51 @@ mark{
 
 
 footer{
-
+    position: relative; top: 100px;
     padding: 40px 15% 20px;
-
+}
+footer p {
+    color: white;
 }
 
 .footer{
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 3.5rem;
-
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    gap: 2rem;
     background-color: black;
-
     white-space: nowrap;
 }
 
 .footerContent h4{
-
     color: white;
     margin-bottom: 2.5rem;
     font-size: 30px;
-
 }
 
 .footerContent a{
-
     color: white;
     padding-inline: 10px;
     text-decoration: none;
     transition: 0.2s;
+}
 
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 #div1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+
+section  #div1 p {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .footerContent a:hover{
@@ -191,7 +205,6 @@ footer{
     }
 
 }
-
 
 @media (max-width:950px) {
 
